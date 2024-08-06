@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#cat << "EOF" > /tmp/agent_migrator.sh
+cat << "EOF" > /tmp/agent_migrator.sh
 # Addigy Migrator Script
 
 ######################################################################################################
