@@ -17,9 +17,13 @@ To migrate from WorkspaceOne to Addigy our migration process looked like this:
 
 The reason the migration script was deployed by WS1 with self service is the instant execution.  When using Addigy policy software or scripts, there were variations in the execution time, some users waited up to 30 minutes for the migration screen.  I wanted something for a user to initiate and see immediate results.  
 
-This process took around 10 minutes and was mostly successful.  Most issues came down to two factors:
- Workspace One Hub was not updated lately, and would not get the commands from console.  A full uninstall/reinstall was needed of the hub.
-The enrollment profile popup sometimes did not occur, and a reboot of the computer was necessary.  Executing the script again after restart had no issue.
+This process took around 10 minutes for each device and was very successful.  
+
+Most issues came down to two causes:
+  - Workspace One Hub was not updated lately, and would not get the commands from console.
+    - A full uninstall/reinstall was needed of the hub.
+  - The MacOS enrollment profile popup/notification did not occur.
+    - A reboot of the computer was necessary.  Executing the script again after restart had no issue.
 
 # Workspace One
 
